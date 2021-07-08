@@ -11,13 +11,13 @@ public class TicTacToeGame {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome Tic Tac Toe Game");
-		creatingBoard();
+		createBoard();
 	}
 
 	/**
 	 * @boardOfGame is a method for creating board using array
 	 */
-	public static void creatingBoard() {
+	public static void createBoard() {
 		for (int index = 1; index < board.length; index++) {
 
 			board[index] = ' ';
