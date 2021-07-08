@@ -6,10 +6,24 @@
 package com.bridgelabz;
 
 public class TicTacToeGame {
+
 	public static char[] board = new char[10];
 
 	public static void main(String[] args) {
 		System.out.println("Welcome Tic Tac Toe Game");
-	
-}
+		creatingBoard();
+	}
+
+	/**
+	 * @boardOfGame is a method for creating board using array
+	 */
+	public static void creatingBoard() {
+		for (int index = 1; index < board.length; index++) {
+
+			board[index] = ' ';
+
+			System.out.println(board);
+
+		}
+	}
 }
